@@ -12,7 +12,7 @@
   "@context": "https://schema.org",
   "@type": "MedicalBusiness",
   "name": "Relief Physiotherapy Rehab Care",
-  "image": "",
+  "image": "https://images.pexels.com/photos/20860622/pexels-photo-20860622.jpeg",
   "telephone": "+919309844644",
   "address": {
     "@type": "PostalAddress",
@@ -34,7 +34,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -95,20 +95,17 @@
         </div>
       </div>
 
-      <div class="hero-visual" aria-hidden="true">
-        <svg viewBox="0 0 420 460" class="hero-illustration">
-          <ellipse cx="210" cy="420" rx="150" ry="24" fill="#E7E0D1"/>
-          <path d="M120 120 Q210 40 300 120 L300 300 Q210 380 120 300 Z" fill="#E4EFE9"/>
-          <circle cx="210" cy="150" r="38" fill="#DCA968"/>
-          <path d="M150 260C150 220 175 195 210 195C245 195 270 220 270 260L270 300C270 320 250 335 210 335C170 335 150 320 150 300Z" fill="#3B6E5C"/>
-          <path d="M175 240 L175 300 M245 240 L245 300" stroke="#2A5346" stroke-width="6" stroke-linecap="round"/>
-          <path d="M140 260 Q110 275 108 320" stroke="#2A5346" stroke-width="10" stroke-linecap="round" fill="none"/>
-          <path d="M280 260 Q315 250 330 210" stroke="#2A5346" stroke-width="10" stroke-linecap="round" fill="none"/>
-          <circle cx="330" cy="205" r="12" fill="#DCA968"/>
-          <circle cx="108" cy="325" r="10" fill="#DCA968"/>
-          <rect x="182" y="100" width="56" height="18" rx="9" fill="#F4EFE2" stroke="#3B6E5C" stroke-width="2"/>
-          <line x1="196" y1="109" x2="224" y2="109" stroke="#3B6E5C" stroke-width="2"/>
-        </svg>
+      <div class="hero-visual">
+        <div class="hero-photo-frame">
+          <img
+            src="https://images.pexels.com/photos/20860622/pexels-photo-20860622.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            alt="A physiotherapist guiding a patient through a stretching exercise in a treatment room"
+            width="900" height="1100" loading="eager" decoding="async">
+          <div class="hero-trust-overlay">
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <p><strong>5.0</strong> Google Rating<br><span>20 Reviews</span></p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -117,80 +114,104 @@
   <section class="trust-bar">
     <div class="wrap trust-grid">
       <div class="trust-item">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2v20M2 12h20" stroke-linecap="round"/><circle cx="12" cy="12" r="9"/></svg>
-        <span>Physiotherapy Care</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 12.5l5 5L20 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>Personalized Care</span>
       </div>
       <div class="trust-item">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 16l5-6 4 4 7-9" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 12.5l5 5L20 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
         <span>Rehabilitation Support</span>
       </div>
       <div class="trust-item">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-4.35-9.5-9C.5 8 2.8 4.5 6.2 4.5c2 0 3.4 1 4.8 2.8C12.4 5.5 13.8 4.5 15.8 4.5c3.4 0 5.7 3.5 3.7 7.5C17 16.65 12 21 12 21z" stroke-linejoin="round"/></svg>
-        <span>Patient-Focused Approach</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 12.5l5 5L20 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>Easy WhatsApp Booking</span>
       </div>
       <div class="trust-item">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 22s7-6.5 7-12A7 7 0 0 0 5 10c0 5.5 7 12 7 12z" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.4"/></svg>
-        <span>Local, in Dahisar West</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 12.5l5 5L20 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>Convenient Dahisar West Location</span>
       </div>
     </div>
   </section>
 
   <!-- ============ ABOUT ============ -->
   <section class="about" id="about">
-    <div class="wrap about-grid">
-      <div class="about-copy">
-        <p class="eyebrow">About the clinic</p>
-        <h2>Recovery, planned around your everyday movement</h2>
-        <p>Relief Physiotherapy Rehab Care is a neighbourhood physiotherapy clinic in Dahisar West, working with patients on pain relief, injury recovery, and regaining strength and mobility after surgery or illness. Care is led by <strong>Dr. Shubham Mishra (PT)</strong>, with a focus on orthopedic, neurological and sports rehabilitation.</p>
-        <p class="muted-note">Clinic bio and specialisation as listed on the clinic's public profile — to be confirmed with the owner before the site goes live.</p>
+    <div class="wrap reveal about-grid">
+      <div class="about-image">
+        <img
+          src="https://images.pexels.com/photos/20860596/pexels-photo-20860596.jpeg?auto=compress&cs=tinysrgb&w=900"
+          alt="A physiotherapist assisting a patient with guided arm exercises"
+          width="700" height="820" loading="lazy" decoding="async">
       </div>
-      <div class="about-hours">
-        <h3>Clinic Timings</h3>
-        <dl>
-          <div><dt>Monday – Saturday</dt><dd>9:00 AM – 10:00 PM</dd></div>
-          <div><dt>Sunday</dt><dd>Closed</dd></div>
-        </dl>
-        <a class="btn btn-whatsapp btn-small" href="https://wa.me/919309844644?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20an%20appointment%20at%20Relief%20Physiotherapy%20Rehab%20Care." target="_blank" rel="noopener">Message on WhatsApp</a>
+      <div class="about-content">
+        <div class="about-copy">
+          <p class="eyebrow">About the clinic</p>
+          <h2>Care focused on helping you move better</h2>
+          <p>Relief Physiotherapy Rehab Care is a neighbourhood physiotherapy clinic in Dahisar West, working with patients on pain relief, injury recovery, and regaining strength and mobility after surgery or illness. Care is led by <strong>Dr. Shubham Mishra (PT)</strong>, with a focus on orthopedic, neurological and sports rehabilitation.</p>
+          <p class="muted-note">Clinic bio and specialisation as listed on the clinic's public profile — to be confirmed with the owner before the site goes live.</p>
+        </div>
+        <div class="about-hours">
+          <h3>Clinic Timings</h3>
+          <dl>
+            <div><dt>Monday – Saturday</dt><dd>9:00 AM – 10:00 PM</dd></div>
+            <div><dt>Sunday</dt><dd>Closed</dd></div>
+          </dl>
+          <a class="btn btn-whatsapp btn-small" href="https://wa.me/919309844644?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20an%20appointment%20at%20Relief%20Physiotherapy%20Rehab%20Care." target="_blank" rel="noopener">Message on WhatsApp</a>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- ============ SERVICES ============ -->
   <section class="services" id="services">
-    <div class="wrap">
-      <p class="eyebrow center">What we treat</p>
-      <h2 class="center">Physiotherapy &amp; Rehabilitation Services</h2>
+    <div class="wrap reveal">
+      <div class="services-intro">
+        <div class="services-intro-copy">
+          <p class="eyebrow">What we treat</p>
+          <h2>Physiotherapy &amp; Rehabilitation Services</h2>
+        </div>
+        <div class="services-intro-image">
+          <img
+            src="https://images.pexels.com/photos/20860584/pexels-photo-20860584.jpeg?auto=compress&cs=tinysrgb&w=700"
+            alt="A physiotherapist supporting a patient's leg during a rehabilitation exercise"
+            width="500" height="360" loading="lazy" decoding="async">
+        </div>
+      </div>
 
       <div class="services-grid">
         <article class="service-card">
           <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3" stroke-linecap="round" stroke-linejoin="round"/></svg>
           <h3>Orthopedic Rehabilitation</h3>
           <p>Support for joint, bone and muscle conditions, including back, neck and knee pain.</p>
+          <a class="service-link" href="https://wa.me/919309844644?text=Hi%2C%20I%27d%20like%20to%20ask%20about%20Orthopedic%20Rehabilitation%20at%20Relief%20Physiotherapy%20Rehab%20Care." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
         </article>
         <article class="service-card">
           <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12h4l2-7 4 14 2-7h4" stroke-linecap="round" stroke-linejoin="round"/></svg>
           <h3>Neurological Rehabilitation</h3>
           <p>Physiotherapy support for neurological conditions, including recovery after stroke.</p>
+          <a class="service-link" href="https://wa.me/919309844644?text=Hi%2C%20I%27d%20like%20to%20ask%20about%20Neurological%20Rehabilitation%20at%20Relief%20Physiotherapy%20Rehab%20Care." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
         </article>
         <article class="service-card">
           <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M13 5l-3 3 4 4-6 6M6 8l3-3M17 17l3-3" stroke-linecap="round" stroke-linejoin="round"/></svg>
           <h3>Sports Injury Recovery</h3>
           <p>Rehabilitation for sports-related injuries, aimed at a safe return to activity.</p>
+          <a class="service-link" href="https://wa.me/919309844644?text=Hi%2C%20I%27d%20like%20to%20ask%20about%20Sports%20Injury%20Recovery%20at%20Relief%20Physiotherapy%20Rehab%20Care." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
         </article>
         <article class="service-card">
           <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 4v16M4 8h4" stroke-linecap="round"/></svg>
           <h3>Post-Operative Recovery</h3>
           <p>Guided rehabilitation to help restore movement and strength after surgery.</p>
+          <a class="service-link" href="https://wa.me/919309844644?text=Hi%2C%20I%27d%20like%20to%20ask%20about%20Post-Operative%20Recovery%20at%20Relief%20Physiotherapy%20Rehab%20Care." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
         </article>
         <article class="service-card">
           <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 20c2-6 4-12 8-12s6 6 8 12" stroke-linecap="round" stroke-linejoin="round"/></svg>
           <h3>Pain Management</h3>
           <p>Assessment-led care for chronic and acute pain, with a plan tailored to your concern.</p>
+          <a class="service-link" href="https://wa.me/919309844644?text=Hi%2C%20I%27d%20like%20to%20ask%20about%20Pain%20Management%20at%20Relief%20Physiotherapy%20Rehab%20Care." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
         </article>
         <article class="service-card">
           <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1" stroke-linecap="round"/></svg>
           <h3>Exercise-Based Rehabilitation</h3>
           <p>Structured, guided exercise programmes to rebuild strength, flexibility and balance.</p>
+          <a class="service-link" href="https://wa.me/919309844644?text=Hi%2C%20I%27d%20like%20to%20ask%20about%20Exercise-Based%20Rehabilitation%20at%20Relief%20Physiotherapy%20Rehab%20Care." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
         </article>
       </div>
 
@@ -204,7 +225,7 @@
 
   <!-- ============ WHY CHOOSE US ============ -->
   <section class="why-us" id="why-us">
-    <div class="wrap why-grid">
+    <div class="wrap reveal why-grid">
       <div class="why-copy">
         <p class="eyebrow">Why patients choose us</p>
         <h2>Care that fits into your week, not the other way around</h2>
@@ -232,7 +253,7 @@
 
   <!-- ============ REVIEWS ============ -->
   <section class="reviews" id="reviews">
-    <div class="wrap reviews-inner">
+    <div class="wrap reveal reviews-inner">
       <p class="eyebrow center">Patient Reviews</p>
       <div class="rating-block">
         <span class="stars-lg" aria-hidden="true">★★★★★</span>
@@ -246,7 +267,7 @@
 
   <!-- ============ HOW IT WORKS ============ -->
   <section class="how-it-works">
-    <div class="wrap">
+    <div class="wrap reveal">
       <p class="eyebrow center">Getting started</p>
       <h2 class="center">How an appointment works</h2>
       <ol class="steps">
@@ -271,7 +292,7 @@
 
   <!-- ============ LOCATION ============ -->
   <section class="location">
-    <div class="wrap location-grid">
+    <div class="wrap reveal location-grid">
       <div>
         <p class="eyebrow">Find us</p>
         <h2>Visit Relief Physiotherapy Rehab Care</h2>
@@ -281,7 +302,7 @@
           Dahisar West, Mumbai – 400068
         </address>
         <p class="location-hours">Open Monday–Saturday, 9:00 AM – 10:00 PM · Closed Sunday</p>
-        <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=AASHIRWAD+CHS+Shop+No+4+Jai+near+Deepa+Hotel+Dahisar+West+Mumbai+400068" target="_blank" rel="noopener">Get Directions</a>
+        <a class="btn btn-primary" href="https://www.google.com/maps/dir//Relief+Physiotherapy+Rehab+Care,+AASHIRWAD+CHS,+Shop+No+4+Jai,+near+Deepa+Hotel,+Dahisar+West,+Mumbai,+Maharashtra+400068/@19.0188808,73.0287206,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3be7b12f2f459d15:0x2e087b421b3bc1ea!2m2!1d72.8580692!2d19.2490021?entry=ttu&amp;g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">Get Directions</a>
       </div>
       <div class="map-placeholder" role="img" aria-label="Map placeholder for clinic location">
         <svg viewBox="0 0 300 220" aria-hidden="true">
@@ -298,7 +319,7 @@
 
   <!-- ============ CONTACT / APPOINTMENT ============ -->
   <section class="contact" id="contact">
-    <div class="wrap contact-grid">
+    <div class="wrap reveal contact-grid">
       <div class="contact-copy">
         <p class="eyebrow">Appointments</p>
         <h2>Ready to book an appointment?</h2>
@@ -328,7 +349,7 @@
   </section>
 
   <!-- ============ FINAL CTA ============ -->
-  <section class="final-cta">
+  <section class="final-cta" style="background-image: linear-gradient(rgba(41,78,64,0.88), rgba(41,78,64,0.93)), url('https://images.pexels.com/photos/20860610/pexels-photo-20860610.jpeg?auto=compress&cs=tinysrgb&w=1600');">
     <div class="wrap final-cta-inner">
       <h2>Looking for physiotherapy care in Dahisar West?</h2>
       <p>Contact Relief Physiotherapy Rehab Care to enquire about an appointment.</p>
@@ -359,7 +380,7 @@
     <div>
       <p class="footer-heading">Connect</p>
       <a href="https://wa.me/919309844644" target="_blank" rel="noopener">WhatsApp</a>
-      <a href="https://www.google.com/maps/search/?api=1&query=AASHIRWAD+CHS+Shop+No+4+Jai+near+Deepa+Hotel+Dahisar+West+Mumbai+400068" target="_blank" rel="noopener">Google Maps</a>
+      <a href="https://www.google.com/maps/dir//Relief+Physiotherapy+Rehab+Care,+AASHIRWAD+CHS,+Shop+No+4+Jai,+near+Deepa+Hotel,+Dahisar+West,+Mumbai,+Maharashtra+400068/@19.0188808,73.0287206,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3be7b12f2f459d15:0x2e087b421b3bc1ea!2m2!1d72.8580692!2d19.2490021?entry=ttu&amp;g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">Google Maps</a>
       <a href="https://instagram.com/reliefphysio_dahisar" target="_blank" rel="noopener">Instagram</a>
     </div>
   </div>
